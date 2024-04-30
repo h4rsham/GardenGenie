@@ -1,0 +1,110 @@
+.border-primary {
+  border-color: #9fd5c3 !important;
+  border-width: 10px !important;
+}
+
+body {
+  background-color: var(--bgcolor);
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
+#formcard {
+  background-color: #e7fff3 !important;
+}
+
+#formcard {
+  font-size: 25px !important;
+  color: #2f4b3f;
+}
+
+.card-bigger {
+  width: 60% !important;
+  height: 600px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+  width: 600px; /* Adjust the desired width */
+  height: 600px; /* Adjust the desired height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.card-3d:hover {
+  transform: scale(1.05);
+}
+
+#back-button {
+  background-color: #e0f5db !important;
+
+  border-color: transparent;
+  outline: none;
+  color: #008558;
+  transition: transform 0.3s ease;
+  font-size: 20px;
+}
+
+#next-button {
+  background-color: #008558 !important;
+  border-color: transparent;
+  outline: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+#back-button:hover,
+#next-button:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card-3d {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.btn-3d {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.progress-bar-space {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  margin: 20px;
+}
+
+.step-title {
+  font-size: 1.8em;
+  font-family: "Darumadrop One", sans-serif;
+}
+
+.bloom-font {
+  font-size: 6rem;
+  color: #2f4b3f;
+  font-family: "PlantsAndFlowersRegular", sans-serif;
+  /* font-family: 'KingthingsAnnexx', sans-serif;   */
+}
+
+.logo {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#budgetp {
+  text-align: center;
+}

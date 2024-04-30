@@ -1,0 +1,146 @@
+
+
+body {
+  background-color: var(--bgcolor);
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.home {
+  background-image: url("../../images/Background.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: sticky;
+  height: 100vh;
+}
+
+.logo {
+  max-width: 17%;
+  margin: 0;
+  display: block;
+  padding-top: 1%;
+  height: auto;
+  cursor: pointer;
+  position: absolute; /* Add this line to position the logo */
+  top: 0; /* Add this line to position the logo */
+  left: 0; /* Add this line to position the logo */
+  position: fixed;
+  
+  }
+
+
+  .card-group2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    align-self: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+/* .card {
+  width: 30%;
+  height: 500px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 10px; 
+  justify-content: space-between; */
+/* } */
+.card {
+width: 90%;
+  height:350px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px;  */
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform 0.3s ease;
+ 
+  
+  
+}
+
+.card-content {
+  font-size: calc(10px + 2vmin); /* Adjust the font size calculation as desired */
+  text-align: center;
+  color: #2f4b3f;
+}
+
+.centered-row {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* .results-back-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+  cursor: pointer;
+} */
+
+#get-started {
+  width: 175%;
+}
+
+
+.card-1, .card-2, .card-3 {
+  transition: transform 0.3s ease;
+  
+}
+
+.card-1:hover, .card-2:hover, .card-3:hover {
+  transform: scale(1.1);
+  
+}
+
+
+
+.results-back-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; /* Add margin-bottom to separate the button from the cards */
+}

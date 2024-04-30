@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "PlantsAndFlowersRegular";
+  src: url("../../fonts/PlantsAndFlowersRegular.ttf");
+}
+
+@font-face {
+  font-family: "SummerGardening";
+  src: url("../../fonts/SummerGardening.ttf");
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.centered-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #008558;
+  color: white;
+  text-decoration: none;
+}
+
+.green-button:hover {
+  background-color: transparent;
+  border-color: #2f4b3f;
+  color: #2f4b3f;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.green-button:active,
+.btn-primary:active {
+  background-color: transparent important!;
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+}
+
+.larger-button {
+  font-size: 20px;
+  padding: 12px 24px;
+}
+
+.logo-home {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.logo-home {
+  transition: transform 0.3s ease;
+}
+
+.logo-home:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.home {
+  display: grid;
+  place-items: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2f4b3f;
+  font-family: "Darumadrop One", sans-serif;
+}
+
+.welcome {
+  font-size: 4rem;
+  color: #2f4b3f;
+  font-family: "Darumadrop One", sans-serif;
+}
+
+#welcome-logo {
+  max-width: 600px;
+  height: auto;
+}

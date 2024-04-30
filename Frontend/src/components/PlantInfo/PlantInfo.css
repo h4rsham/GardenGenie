@@ -1,0 +1,89 @@
+/* PlantInfo.css */
+
+.accordion {
+  width: 800px;
+}
+
+/* PlantInfo.css */
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-weight: 500;
+  text-align: left;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+.accordion-button:hover {
+  background-color: #cdf7e8;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 15px;
+  border: none;
+  border-top: 1px solid #dee2e6;
+  border-radius: 0;
+  font-size: 18px;
+}
+
+/* PlantInfo.css */
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(24, 126, 24);
+  color: white;
+}
+
+.accordion-button:not(.collapsed):hover {
+  background-color: rgb(24, 126, 24);
+}
+
+#get-started-plant {
+  background-color: #e0f5db !important;
+  border-color: transparent;
+  outline: none;
+  color: #008558;
+  transition: transform 0.3s ease;
+  font-size: 20px;
+}
+
+#get-started-plant:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.home {
+  height: 100vh;
+  overflow-y: auto;
+  /* background-image: url('your-backg'); */
+  background-size: cover;
+}
+
+.logo-plant-info {
+  max-width: 17%;
+  margin: 0;
+  display: block;
+  padding-top: 1%;
+  height: auto;
+  cursor: pointer;
+  position: absolute; /* Add this line to position the logo */
+  top: 0; /* Add this line to position the logo */
+  left: 0; /* Add this line to position the logo */
+  transition: transform 0.3s ease;
+}
+
+.logo-plant-info:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
