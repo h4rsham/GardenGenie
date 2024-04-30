@@ -1,4 +1,4 @@
 # GardenGenie
 Full-Stack Web Application
 
-Under maintenance
+README Under maintenance
